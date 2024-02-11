@@ -14,6 +14,7 @@ def alternate(s):
 class Tes_twochar(unittest.TestCase):
     def test_two(self):
      assert alternate("A") == 0
+     assert alternate("") == 0
 
     pass
 
