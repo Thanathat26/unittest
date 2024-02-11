@@ -18,7 +18,7 @@ def alternatingCharacters(s):
         if s[i] == s[i - 1]:
             alt += 1
     
-    return deletions
+    return alt
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
